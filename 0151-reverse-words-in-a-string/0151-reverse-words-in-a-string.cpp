@@ -43,7 +43,7 @@ public:
         i=v.size()-1;
         while(v[i]==' ')
         {
-           v.erase(v.begin()+i);
+           v.erase(v.end()-1);
             i--;
         }
             
