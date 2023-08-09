@@ -8,7 +8,7 @@ public:
     long long int largestPrimeFactor(int N){
         int p=N;
     for(int i=2;i<=N;i++){
-        if(i==p) return i;
+        // if(i==p) return i;
         while(N%i==0){
             if(i==N) return i;
             N/=i;
