@@ -33,14 +33,15 @@ public:
            {
                p=temp;
                t=p;
-               continue;
-            
+              
            }
+               else{
          
                t->next=temp;
          
                t=t->next;
           
+           }
            }
            
        }
