@@ -24,7 +24,7 @@ public:
             }
             n=n-n/i;
             i++;
-            p--;
+            
         }
         return true;
     }
