@@ -7,8 +7,8 @@ public:
         if(x==0) return 0;
            if(x<=3) return 1;
             while(start<=end){
-                 int mid=start+(end-start)/2;
-           long long int p=(long long int) mid*mid;
+                long long  int mid=start+(end-start)/2;
+           long long int p= mid*mid;
                 if(p<=x){
                     ans= mid;
                     start=mid+1;
