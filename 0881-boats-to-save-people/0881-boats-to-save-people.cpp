@@ -6,8 +6,10 @@ public:
         int count=0;
         int s=0;
         int e=people.size()-1;
-        while(s<=e){ if(people[s]+people[e--]<=limit)s++; 
+        while(s<=e){ if(people[s]+people[e--]<=limit)s++;
+                   
                    count++;}
         return count;
+       
     }
 };
