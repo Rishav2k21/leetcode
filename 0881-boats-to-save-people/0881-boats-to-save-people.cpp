@@ -6,9 +6,9 @@ public:
         int count=0;
         int s=0;
         int e=people.size()-1;
-        if(people.size()==1) {
-            return 1;
-        }
+        // if(people.size()==1) {
+        //     return 1;
+        // }
         while(s<=e){
             if(people[s]+people[e]<=limit){
                 s++;
